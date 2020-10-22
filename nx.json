@@ -29,6 +29,9 @@
     "utils-demo-e2e": {
       "tags": [],
       "implicitDependencies": ["utils-demo"]
+    },
+    "ui-file-upload": {
+      "tags": []
     }
   }
 }

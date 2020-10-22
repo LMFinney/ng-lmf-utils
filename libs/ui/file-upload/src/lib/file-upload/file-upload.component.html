@@ -1,0 +1,18 @@
+<input
+  #fileInput
+  type="file"
+  [accept]="accept"
+  [alt]="altText"
+  e2e="file-upload"
+  [disabled]="fileUploadDisabled"
+  (change)="fileChanged.emit(fileInput.value)"
+/>
+<button
+  mat-button
+  (click)="fileInput.click()"
+  [disabled]="fileUploadDisabled"
+  e2e="file-upload-button"
+  aria-label="upload file"
+>
+  <mat-icon>{{ icon }}</mat-icon>
+</button>

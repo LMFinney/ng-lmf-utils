@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ng-lmf-utils/ui/file-upload": ["libs/ui/file-upload/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
